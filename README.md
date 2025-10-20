@@ -192,12 +192,14 @@ Automatic filename cleaning prevents OS errors
 
 ---
 
-🧑‍💻 Author
-
-<br>
-<h3 algin="center">
-Amos Anand <br>🌍 Garhwa → Bangalore | 💼 Developer, Designer & YouTuber<br>📫 GitHub • 🎥 YouTube • 🌐 Portfolio<br></h3>
----
+<h3 align="center">
+  🧑‍💻 Amos Anand <br>
+  🌍 Garhwa → Bangalore | 💼 Developer, Designer & YouTuber<br>
+  📫 
+  <a href="https://github.com/BuiltByAmos-18" target="_blank">GitHub</a> • 
+  🎥 <a href="https://youtube.com/@BuiltByAmos-18" target="_blank">YouTube</a> • 
+  🌐 <a href="https://builtbyamos.great-site.net" target="_blank">Portfolio</a>
+</h3>
 
 <p align="center">
   ⭐ If you like this project, give it a star on GitHub! ⭐
