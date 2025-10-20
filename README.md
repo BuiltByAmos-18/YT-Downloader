@@ -1,8 +1,3 @@
-Perfect, Amos 🔥
-Main tumhe complete GitHub-ready project de raha hoon —
-✅ README.md (copy-friendly, GitHub format)
-✅ downloader.py (Termux + desktop dono ke liye ready)
-
 
 ---
 
