@@ -1,220 +1,215 @@
-
----
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python" alt="Python Badge">
-  <img src="https://img.shields.io/badge/Platform-Termux%20%7C%20Linux%20%7C%20Windows-orange" alt="Platform Badge">
-  <img src="https://img.shields.io/badge/License-Open--Source-green" alt="License Badge">
-</p>
-
-<h1 align="center">🧰 YT-Downloader (CLI Tool)</h1>
+# ðŸ§° YT-Downloader â€” Fast YouTube Downloader (CLI)
 
 <p align="center">
-  🎬 <b>YT-Downloader</b> is a fast, lightweight, and powerful Python-based terminal tool to <b>download YouTube videos, audio, and playlists</b> directly to your device storage.  
-  Works on <b>Termux (Android)</b>, <b>Linux</b>, <b>Windows</b>, and <b>macOS</b>.  
-  Download videos in HD, extract audio, download subtitles, and save thumbnails easily! ⚡
+  <img alt="YT-Downloader" src="https://user-images.githubusercontent.com/00000000/placeholder-hero-image.png" width="720"/>
+</p>
+
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python" />
+  <img alt="Platform" src="https://img.shields.io/badge/Platform-Termux%20%7C%20Linux%20%7C%20Windows%20%7C%20macOS-orange" />
+  <img alt="License" src="https://img.shields.io/badge/License-Open--Source-green" />
+  <img alt="Repo" src="https://img.shields.io/badge/Repo-BuiltByAmos--18/YT--Downloader-brightgreen" />
+</p>
+
+A fast, lightweight, and friendly terminal tool to download YouTube videos, audio, and playlists directly to your device. Built for Termux (Android), Linux, Windows, and macOS.
+
+Why youâ€™ll love it
+- Small, fast, and scriptable
+- Download HD / 4K videos, extract audio (MP3/M4A)
+- Playlist support, thumbnails, subtitles
+- Clean filenames, download history, and duplicate avoidance
+
+---
+
+## Table of Contents
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Requirements](#requirements)
+- [Installation](#installation)
+  - [Termux (Android)](#termux-android)
+  - [Linux / macOS / Windows](#linux--macos--windows)
+- [Quick Start](#quick-start)
+- [Usage Examples](#usage-examples)
+- [Folder Structure](#folder-structure)
+- [Tips & Troubleshooting](#tips--troubleshooting)
+- [Contributing](#contributing)
+- [License & Author](#license--author)
+
+---
+
+## Features
+- ðŸŽ¥ Download videos in multiple qualities (360p / 720p / 1080p / 4K when available)
+- ðŸŽµ Extract audio and save as MP3 or M4A
+- ðŸ“‘ Download full playlists automatically
+- ðŸ–¼ Download thumbnails automatically
+- ðŸ“ Download subtitles (when present)
+- âš¡ Clean, colored CLI output with progress and ETA
+- ðŸ“‚ Custom download folder support
+- ðŸ” Avoids duplicate downloads using a history log
+- ðŸ Built with Python and pytube, with optional moviepy for conversions
+
+---
+
+## Screenshots
+> Replace these placeholders with real screenshots/GIFs of the app running for best presentation.
+
+<p align="center">
+  <img alt="terminal-sample" src="https://user-images.githubusercontent.com/00000000/placeholder-screenshot-1.png" width="700"/>
 </p>
 
 ---
 
-## 📖 Project Description
+## Requirements
+- Python 3.10 or newer
+- Internet access
+- Recommended: 100+ MB free disk space for large downloads
 
-**YT-Downloader** is designed for anyone who wants to quickly save YouTube content to their device.  
-It supports:
-
-- High-quality video downloads (360p / 720p / 1080p / 4K)  
-- Audio-only downloads (MP3/M4A)  
-- Playlist downloads  
-- Automatic thumbnail and subtitle downloads  
-- Colored terminal output for easy navigation  
-- Custom download folders and automatic file name cleaning  
-- Download history log  
-
-This tool is perfect for Termux users on Android and also works on Linux, Windows, and macOS terminals.
+Python libraries (installed via requirements.txt):
+- pytube
+- moviepy (optional, for audio conversions)
+- colorama
+- requests
 
 ---
 
-## 🚀 Features
+## Installation
 
-- 🎥 Download YouTube videos in HD/Full HD/4K  
-- 🎵 Download audio-only (MP3/M4A)  
-- 📝 Download subtitles (if available)  
-- 📂 Save videos/audio to a custom folder  
-- 🖼 Automatically download video thumbnails  
-- 📑 Download full playlists  
-- ⚡ Colored CLI output & progress bar with ETA  
-- 📝 Maintains a download history log  
-- ✅ Avoid duplicate downloads  
-- 🐍 Built with Python & pytube library  
+Important: This README uses the actual repository URL. Clone the repo from your GitHub account:
 
----
-
-## 🛠 Tech Stack
-
-| Component | Description |
-|-----------|-------------|
-| 🐍 Language | Python |
-| 📦 Libraries | pytube, moviepy, colorama, requests |
-| 💻 Interface | Command Line (Terminal/CLI) |
-
----
-
-## 📦 Installation & Setup
-
-### **1️⃣ Termux (Android)**
-
-1. Update packages:
-
+Repository:
 ```
+https://github.com/BuiltByAmos-18/YT-Downloader.git
+```
+
+### Termux (Android)
+1. Update and install essentials:
+```bash
 pkg update && pkg upgrade -y
-```
-2. Install Python & Git:
-
-
-```
 pkg install python git -y
 ```
-3. Clone the repository:
-
-
-```
-git clone https://github.com/your-username/YT-Downloader.git
+2. Clone the repo:
+```bash
+git clone https://github.com/BuiltByAmos-18/YT-Downloader.git
 cd YT-Downloader
 ```
-4. Install dependencies:
-
-```
+3. Install Python dependencies:
+```bash
 pip install -r requirements.txt
 ```
-5. Allow Termux storage access (required first time):
-
-
-```
+4. Allow Termux to access storage (first time only):
+```bash
 termux-setup-storage
 ```
 
----
-### **2️⃣ Linux / Windows / macOS**
-
+### Linux / macOS / Windows
 1. Ensure Python 3.10+ is installed.
-
-
-2. Clone the repository:
-
-
-```
-git clone https://github.com/your-username/YT-Downloader.git
+2. Clone the repo:
+```bash
+git clone https://github.com/BuiltByAmos-18/YT-Downloader.git
 cd YT-Downloader
 ```
 3. Install dependencies:
-
-
-```
+```bash
 pip install -r requirements.txt
 ```
 
 ---
 
-### *▶️ How to Use*
+## Quick Start
 
-Run the Python script:
-```
+Run the main script:
+```bash
 python downloader.py
 ```
-### Menu Options
 
-<h1>
-========== YT-Downloader ==========<br>
-1️⃣ Download Video<br>
-2️⃣ Download Audio<br>
-3️⃣ Download Playlist<br>
-4️⃣ Exit<br>
-==================================
-  <br>
-</h1>
-Download Video → Enter YouTube link, choose resolution or auto-highest quality.
+Youâ€™ll see an interactive menu:
+- Download Video
+- Download Audio
+- Download Playlist
+- Exit
 
-Download Audio → Extract audio from video, save as MP3/M4A.
-
-Download Playlist → Download all videos in the playlist automatically.
-
-Exit → Close the program.
-
-
-### Example (Termux/Linux)
-```
-python downloader.py
-```
-🎬 Enter YouTube video link: https://youtu.be/abcd1234
-Available qualities:
-1. 360p - 15.3 MB
-2. 720p - 45.6 MB
-3. 1080p - 95.2 MB<br>
-🔽 Enter the number of your preferred quality: 2 <br>
-📥 Downloading...<br>
-✅ Download complete!<br>
-📂 Saved to: ```/storage/emulated/0/Download/YT-Downloads/```
-
+Follow the prompts to paste a YouTube URL and choose a quality or audio format.
 
 ---
 
-### 📁 Folder Structure
+## Usage Examples
+
+Example: Download a single video (interactive)
+```
+python downloader.py
+```
+Then paste:
+```
+https://youtu.be/abcd1234
+```
+Choose quality (e.g., 720p) and wait for the progress bar.
+
+Example: Typical flow shown in-menu
+- Available qualities will be listed with sizes
+- Enter the number for preferred quality
+- Script downloads video, saves thumbnail and subtitle (if available)
+- Entry is written to downloads.log to avoid redownloading
+
+Notes:
+- Audio extraction to MP3/M4A uses moviepy (install moviepy if you need conversion)
+- If a requested resolution is unavailable, the script will fall back to the best matching stream
+
+---
+
+## Folder Structure
 ```
 YT-Downloader/
-│
-├── downloader.py       # Main Python script
-├── requirements.txt    # Python dependencies
-├── downloads.log       # Download history (auto-generated)
-└── thumbnails/         # Downloaded video thumbnails
+â”‚
+â”œâ”€â”€ downloader.py       # Main Python script (interactive CLI)
+â”œâ”€â”€ requirements.txt    # Python dependencies
+â”œâ”€â”€ downloads.log       # Download history (auto-generated)
+â””â”€â”€ thumbnails/         # Downloaded video thumbnails
 ```
 
+Default download folders:
+- Termux: /storage/emulated/0/Download/YT-Downloads/
+- Desktop: ./YT-Downloads/ (project directory)
+
+You can change the download folder inside downloader.py (look for DOWNLOAD_DIR constant or prompt).
+
 ---
 
-<h3 align="center">💡 Notes & Tips</h3><br>
+## Tips & Troubleshooting
+- Stable internet yields smooth downloads â€” large files may take long on mobile networks.
+- If download fails, try a different stream (audio-only vs progressive vs adaptive).
+- On Windows, use `python` or `py` depending on your Python setup.
+- If audio conversion fails, ensure ffmpeg is installed (moviepy uses it).
+  - On Linux: sudo apt install ffmpeg
+  - On Termux: pkg install ffmpeg
+- To clear the log and re-download, delete downloads.log (or edit it to remove entries).
 
-✨ <b>Stable Internet:</b> Works best with a stable internet connection for smooth downloads.<br>
-📁 <b>Default Download Folder:</b><br>
-&nbsp;&nbsp;• Termux: <code>/storage/emulated/0/Download/YT-Downloads/</code><br>
-&nbsp;&nbsp;• Linux/Desktop: <code>YT-Downloads</code> folder in project directory<br>
-🔐 <b>Storage Permission (Termux only):</b> Run <code>termux-setup-storage</code> once to allow access.<br>
-🎥 <b>Video Quality:</b> Supports HD, Full HD, and 4K downloads if available.<br>
-🎵 <b>Audio Download:</b> Converts video to MP3/M4A automatically when selected.<br>
-📝 <b>Filename Cleaning:</b> Automatically removes illegal characters for safe storage.<br>
-📂 <b>Custom Folders:</b> You can set your own download folder inside the script if needed.<br>
-📑 <b>Playlist Downloads:</b> Automatically skips already downloaded videos to avoid duplicates.<br>
-🌟 <b>Pro Tip:</b> Always check your internet connection and storage space before downloading large videos.<br>
-
-<h3 align="center">
-  🧑‍💻 Amos Anand <br>
-  🌍 Garhwa → Bangalore | 💼 Developer, Designer & YouTuber<br>
-  📫 
-  
-  <a href="https://github.com/BuiltByAmos-18" target="_blank">
-    GitHub
-    ---
-  </a> • 
-  🎥 <a href="https://instagram.com/@builtbyamos.0" target="_blank">
-    Instagram
-    ---
-  </a> • 
-  🌐 <a href="https://builtbyamos.great-site.net" target="_blank">
-    Portfolio
-  ---
-  </a>
-</h3>
-
-<p align="center">
-  ⭐ If you like this project, give it a star on GitHub! ⭐
-</p>
 ---
 
-<h3 align="center">✨ Highlights of This README ✨</h3><br>
+## Contributing
+Contributions, improvements, and bug fixes are welcome!
+1. Fork the repo
+2. Create a feature branch: git checkout -b feat/your-feature
+3. Commit your changes and push: git push origin feat/your-feature
+4. Open a Pull Request with a clear description of the change
 
-🌟 <b>Centered Title & Badges:</b> Gives a professional and visually appealing look.<br>
-🎨 <b>Colorful Emojis:</b> Makes each section lively and easy to scan.<br>
-📦 <b>Clear Installation Instructions:</b> Step-by-step guide for Termux, Linux, and Desktop users.<br>
-🎬 <b>Detailed Usage Examples:</b> Shows how to run the script and download videos/audio/playlists.<br>
-🗂 <b>Professional Folder Structure:</b> Clearly explains all project files and directories.<br>
-💡 <b>Tips & Notes:</b> Beginner-friendly tips to avoid errors and optimize downloads.<br>
-🧑‍💻 <b>Clickable Author Section:</b> Social media links are interactive and center-aligned.<br>
-⭐ <b>GitHub Star Encouragement:</b> Encourages users to star the project for support.<br>
+Please keep code readable and include tests or examples when applicable.
+
+---
+
+## License & Author
+Made with â¤ï¸ by Amos Anand (BuiltByAmos-18)
+
+- GitHub: https://github.com/BuiltByAmos-18
+- Portfolio: https://builtbyamos.great-site.net
+- Instagram: https://instagram.com/@builtbyamos.0
+
+This project is open-source â€” feel free to use and modify under the project license.
+
+---
+
+If you want, I can:
+- Add real screenshots or a demo GIF to this README (you can upload images to the repo or link externally).
+- Add a badge for PyPI or CI if you plan to publish.
+- Add a small CONTRIBUTING.md and CODE_OF_CONDUCT.md for maintainers.
+
+Tell me which improvements you want next and Iâ€™ll update the files accordingly.
