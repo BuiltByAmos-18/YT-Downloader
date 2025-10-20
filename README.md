@@ -171,15 +171,19 @@ YT-Downloader/
 
 ---
 
-<h3>💡 Notes & Tips</h3><br>
-Works best with stable internet connection.<br>
-Default download folder:<br>
-Termux: ```/storage/emulated/0/Download/YT-Downloads/```<br>
-Linux/Desktop: YT-Downloads folder in project directory<br>
-Termux users must grant storage permission once using termux-setup-storage<br>
-Supports HD & Full HD downloads (if available)<br>
-Automatic filename cleaning prevents OS errors<br>
+<h3 align="center">💡 Notes & Tips</h3><br>
 
+✨ <b>Stable Internet:</b> Works best with a stable internet connection for smooth downloads.<br>
+📁 <b>Default Download Folder:</b><br>
+&nbsp;&nbsp;• Termux: <code>/storage/emulated/0/Download/YT-Downloads/</code><br>
+&nbsp;&nbsp;• Linux/Desktop: <code>YT-Downloads</code> folder in project directory<br>
+🔐 <b>Storage Permission (Termux only):</b> Run <code>termux-setup-storage</code> once to allow access.<br>
+🎥 <b>Video Quality:</b> Supports HD, Full HD, and 4K downloads if available.<br>
+🎵 <b>Audio Download:</b> Converts video to MP3/M4A automatically when selected.<br>
+📝 <b>Filename Cleaning:</b> Automatically removes illegal characters for safe storage.<br>
+📂 <b>Custom Folders:</b> You can set your own download folder inside the script if needed.<br>
+📑 <b>Playlist Downloads:</b> Automatically skips already downloaded videos to avoid duplicates.<br>
+🌟 <b>Pro Tip:</b> Always check your internet connection and storage space before downloading large videos.<br>
 
 <h3 align="center">
   🧑‍💻 Amos Anand <br>
