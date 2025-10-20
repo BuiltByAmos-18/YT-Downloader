@@ -172,33 +172,40 @@ YT-Downloader/
 ---
 
 💡 Notes & Tips
-
+---
 Works best with stable internet connection.
-
+---
 Default download folder:
-
+---
 Termux: ```/storage/emulated/0/Download/YT-Downloads/```
-
+---
 Linux/Desktop: YT-Downloads folder in project directory
-
+---
 
 Termux users must grant storage permission once using termux-setup-storage
-
+---
 Supports HD & Full HD downloads (if available)
-
+---
 Automatic filename cleaning prevents OS errors
-
-
-
 ---
 
 <h3 align="center">
   🧑‍💻 Amos Anand <br>
   🌍 Garhwa → Bangalore | 💼 Developer, Designer & YouTuber<br>
   📫 
-  <a href="https://github.com/BuiltByAmos-18" target="_blank">GitHub</a> • 
-  🎥 <a href="https://youtube.com/@BuiltByAmos-18" target="_blank">YouTube</a> • 
-  🌐 <a href="https://builtbyamos.great-site.net" target="_blank">Portfolio</a>
+  
+  <a href="https://github.com/BuiltByAmos-18" target="_blank">
+    GitHub
+    ---
+  </a> • 
+  🎥 <a href="https://instagram.com/@builtbyamos.0" target="_blank">
+    Instagram
+    ---
+  </a> • 
+  🌐 <a href="https://builtbyamos.great-site.net" target="_blank">
+    Portfolio
+  ---
+  </a>
 </h3>
 
 <p align="center">
