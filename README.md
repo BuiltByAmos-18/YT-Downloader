@@ -124,13 +124,14 @@ python downloader.py
 ```
 Menu Options
 
+<div>
 ========== YT-Downloader ==========
 1️⃣ Download Video
 2️⃣ Download Audio
 3️⃣ Download Playlist
 4️⃣ Exit
 ==================================
-
+</div>
 Download Video → Enter YouTube link, choose resolution or auto-highest quality.
 
 Download Audio → Extract audio from video, save as MP3/M4A.
