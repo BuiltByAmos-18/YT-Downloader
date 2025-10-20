@@ -1,4 +1,4 @@
-# ** YT-Downloader ** Fast YouTube Downloader (CLI)
+#  YT-Downloader  Fast YouTube Downloader (CLI)
 
 <p align="center">
   <img alt="YT-Downloader" src="https://user-images.githubusercontent.com/00000000/placeholder-hero-image.png" width="720"/>
