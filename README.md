@@ -209,22 +209,13 @@ YT-Downloader/
 </p>
 ---
 
-✅ Highlights of This README
+<h3 align="center">✨ Highlights of This README ✨</h3><br>
 
-Centered title & badges for visual appeal
-
-Colorful emojis for each section
-
-Clear installation instructions for Termux & Linux/Desktop
-
-Detailed usage instructions & examples
-
-Professional folder structure
-
-Notes & tips for beginners
-
-Author section + star encouragement
-
-
-
----
+🌟 <b>Centered Title & Badges:</b> Gives a professional and visually appealing look.<br>
+🎨 <b>Colorful Emojis:</b> Makes each section lively and easy to scan.<br>
+📦 <b>Clear Installation Instructions:</b> Step-by-step guide for Termux, Linux, and Desktop users.<br>
+🎬 <b>Detailed Usage Examples:</b> Shows how to run the script and download videos/audio/playlists.<br>
+🗂 <b>Professional Folder Structure:</b> Clearly explains all project files and directories.<br>
+💡 <b>Tips & Notes:</b> Beginner-friendly tips to avoid errors and optimize downloads.<br>
+🧑‍💻 <b>Clickable Author Section:</b> Social media links are interactive and center-aligned.<br>
+⭐ <b>GitHub Star Encouragement:</b> Encourages users to star the project for support.<br>
