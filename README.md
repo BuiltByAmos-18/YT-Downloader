@@ -154,7 +154,7 @@ Available qualities:
 🔽 Enter the number of your preferred quality: 2 <br>
 📥 Downloading...<br>
 ✅ Download complete!<br>
-📂 Saved to: /storage/emulated/0/Download/YT-Downloads/
+📂 Saved to: ```/storage/emulated/0/Download/YT-Downloads/```
 
 
 ---
@@ -177,7 +177,7 @@ Works best with stable internet connection.
 
 Default download folder:
 
-Termux: /storage/emulated/0/Download/YT-Downloads/
+Termux: ```/storage/emulated/0/Download/YT-Downloads/```
 
 Linux/Desktop: YT-Downloads folder in project directory
 
