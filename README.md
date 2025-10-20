@@ -194,12 +194,12 @@ Automatic filename cleaning prevents OS errors
 
 🧑‍💻 Author
 
-<br><center>
+<br><h3 algin= "center">
 Amos Anand <br>
 🌍 Garhwa → Bangalore | 💼 Developer, Designer & YouTuber<br>
 📫 GitHub • 🎥 YouTube • 🌐 Portfolio
 <br>
-</center>
+</h3>
 ---
 
 <p align="center">
