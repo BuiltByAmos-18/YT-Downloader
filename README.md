@@ -115,13 +115,13 @@ pip install -r requirements.txt
 
 ---
 
-▶️ How to Use
+### *▶️ How to Use*
 
 Run the Python script:
 ```
 python downloader.py
 ```
-Menu Options
+### Menu Options
 
 <h1>
 ========== YT-Downloader ==========<br>
@@ -141,7 +141,7 @@ Download Playlist → Download all videos in the playlist automatically.
 Exit → Close the program.
 
 
-Example (Termux/Linux)
+### Example (Termux/Linux)
 ```
 python downloader.py
 ```
@@ -158,7 +158,7 @@ Available qualities:
 
 ---
 
-📁 Folder Structure
+### 📁 Folder Structure
 ```
 YT-Downloader/
 │
