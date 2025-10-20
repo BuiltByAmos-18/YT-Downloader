@@ -32,27 +32,27 @@ It is simple, fast, and works perfectly in terminal environments, including **Te
 
 2. Install Python:
 
-pkg install python
+   pkg install python
 
 
 3. Install Git:
 
-pkg install git
+   pkg install git
 
 
 4. Clone the repository:
 
-git clone https://github.com/your-username/YT-Downloader.git
+   git clone https://github.com/your-username/YT-Downloader.git
 
 
 5. Navigate to the project folder:
 
-cd YT-Downloader
+   cd YT-Downloader
 
 
 6. Install dependencies:
 
-pip install pytube
+   pip install pytube
 
 
 
@@ -63,7 +63,7 @@ pip install pytube
 
 1. Run the downloader script:
 
-python downloader.py
+   python downloader.py
 
 
 2. Paste the YouTube video link when prompted.
@@ -102,4 +102,4 @@ Supports downloading videos in different resolutions (if supported by YouTube).
 
 Termux users may need to grant storage permissions:
 
-termux-setup-storage
+   termux-setup-storage
