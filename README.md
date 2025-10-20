@@ -50,16 +50,22 @@ For Termux (Android):
 ```
 pkg update && pkg upgrade
 ```
+```
 pkg install python
+```
 ```
 pkg install git
 ```
+```
 git clone https://github.com/your-username/YT-Downloader.git
+```
 ```
 cd YT-Downloader
 ```
+```
 pip install pytube
 ```
+
 Grant Termux access to your storage (first time only):
 ```
 termux-setup-storage
@@ -115,9 +121,9 @@ Supports HD video downloads (if available).
 Termux users may need to allow storage permission using termux-setup-storage.
 
 ✅ Usage Example (Termux)
-
+```
 python downloader.py
-
+```
 🎬 Enter YouTube video link: https://youtu.be/abcd1234
 Available qualities:
 1. 360p - 15.3 MB
