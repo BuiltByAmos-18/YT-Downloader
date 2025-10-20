@@ -31,26 +31,25 @@ It is simple, fast, and works perfectly in terminal environments, including **Te
    pkg update && pkg upgrade
 
 2. Install Python:
-
    pkg install python
 
 
-3. Install Git:
+4. Install Git:
 
    pkg install git
 
 
-4. Clone the repository:
+5. Clone the repository:
 
    git clone https://github.com/your-username/YT-Downloader.git
 
 
-5. Navigate to the project folder:
+6. Navigate to the project folder:
 
    cd YT-Downloader
 
 
-6. Install dependencies:
+7. Install dependencies:
 
    pip install pytube
 
