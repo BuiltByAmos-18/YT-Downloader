@@ -95,13 +95,13 @@ Default download location for Termux:
 ---
 
 📁 Folder Structure
-
+```
 YT-Downloader/
 │
 ├── downloader.py       # Main Python script
 ├── README.md           # Documentation
 └── requirements.txt    # Python dependencies (optional)
-
+```
 
 ---
 
@@ -129,8 +129,12 @@ Available qualities:
 1. 360p - 15.3 MB
 2. 720p - 45.6 MB
 3. 1080p - 95.2 MB
+<br>
 🔽 Enter the number of your preferred quality: 2
+<br>
 📥 Downloading...
+<br>
 ✅ Download complete!
+<br>
 📂 Saved to: /storage/emulated/0/Download/YT-Downloads/
 
