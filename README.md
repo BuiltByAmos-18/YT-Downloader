@@ -142,7 +142,7 @@ Amos Anand
 <p align="center">
   ⭐ If you like this project, give it a star on GitHub! ⭐
 </p>
-```
+
 ---
 
 💡 What’s special about this version:
@@ -155,10 +155,6 @@ Amos Anand
 
 
 ---
-
-Would you like me to add an image banner or animated GIF demo section (to make it look like premium GitHub repos)?
-Example: a preview of YT-Downloader running in Termux or terminal.
-
 
 Supports HD video downloads (if available).
 
