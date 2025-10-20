@@ -47,30 +47,30 @@ Interface: Command Line
 📦 Installation & Setup
 
 For Termux (Android):
-```bash
+```
 pkg update && pkg upgrade
-
+```
 pkg install python
-
+```
 pkg install git
-
+```
 git clone https://github.com/your-username/YT-Downloader.git
-
+```
 cd YT-Downloader
-
+```
 pip install pytube
-
+```
 Grant Termux access to your storage (first time only):
-
+```
 termux-setup-storage
-
+```
 
 ---
 
 ▶️ How to Use
-
+```
 python downloader.py
-
+```
 1. Paste your YouTube video link when asked.
 
 
@@ -82,9 +82,9 @@ python downloader.py
 
 
 Default download location for Termux:
-
+```
 /storage/emulated/0/Download/YT-Downloads/
-
+```
 
 ---
 
@@ -114,55 +114,6 @@ Supports HD video downloads (if available).
 
 Termux users may need to allow storage permission using termux-setup-storage.
 
-
-
----
-
-🧩 downloader.py
-
-import os
-from pytube import YouTube
-
-# Output folder for Termux / Android
-DOWNLOAD_FOLDER = "/storage/emulated/0/Download/YT-Downloads/"
-
-def create_download_folder():
-    if not os.path.exists(DOWNLOAD_FOLDER):
-        os.makedirs(DOWNLOAD_FOLDER)
-
-def download_video():
-    try:
-        link = input("\n🎬 Enter YouTube video link: ").strip()
-        yt = YouTube(link)
-
-        print(f"\n📄 Title: {yt.title}")
-        print(f"🎥 Author: {yt.author}")
-        print(f"⏱ Duration: {round(yt.length / 60, 2)} minutes")
-
-        # List available streams
-        print("\nAvailable qualities:")
-        streams = yt.streams.filter(progressive=True, file_extension='mp4').order_by('resolution').desc()
-        for i, stream in enumerate(streams, 1):
-            print(f"{i}. {stream.resolution} - {round(stream.filesize / (1024*1024), 2)} MB")
-
-        choice = int(input("\n🔽 Enter the number of your preferred quality: "))
-        selected_stream = streams[choice - 1]
-
-        print("\n📥 Downloading...")
-        create_download_folder()
-        selected_stream.download(output_path=DOWNLOAD_FOLDER)
-        print(f"\n✅ Download complete!\n📂 Saved to: {DOWNLOAD_FOLDER}")
-
-    except Exception as e:
-        print(f"\n❌ Error: {str(e)}")
-        print("⚠️ Make sure you entered a valid YouTube link and have internet access.")
-
-if __name__ == "__main__":
-    download_video()
-
-
----
-
 ✅ Usage Example (Termux)
 
 python downloader.py
@@ -176,9 +127,4 @@ Available qualities:
 📥 Downloading...
 ✅ Download complete!
 📂 Saved to: /storage/emulated/0/Download/YT-Downloads/
-
-
----
-
-Would you like me to also create the requirements.txt file (so GitHub users can just do pip install -r requirements.txt)?
 
