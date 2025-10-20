@@ -1,4 +1,4 @@
-# ðŸ§° YT-Downloader â€” Fast YouTube Downloader (CLI)
+# ** YT-Downloader ** Fast YouTube Downloader (CLI)
 
 <p align="center">
   <img alt="YT-Downloader" src="https://user-images.githubusercontent.com/00000000/placeholder-hero-image.png" width="720"/>
@@ -13,7 +13,7 @@
 
 A fast, lightweight, and friendly terminal tool to download YouTube videos, audio, and playlists directly to your device. Built for Termux (Android), Linux, Windows, and macOS.
 
-Why youâ€™ll love it
+Why you'll love it
 - Small, fast, and scriptable
 - Download HD / 4K videos, extract audio (MP3/M4A)
 - Playlist support, thumbnails, subtitles
@@ -38,15 +38,15 @@ Why youâ€™ll love it
 ---
 
 ## Features
-- ðŸŽ¥ Download videos in multiple qualities (360p / 720p / 1080p / 4K when available)
-- ðŸŽµ Extract audio and save as MP3 or M4A
-- ðŸ“‘ Download full playlists automatically
-- ðŸ–¼ Download thumbnails automatically
-- ðŸ“ Download subtitles (when present)
-- âš¡ Clean, colored CLI output with progress and ETA
-- ðŸ“‚ Custom download folder support
-- ðŸ” Avoids duplicate downloads using a history log
-- ðŸ Built with Python and pytube, with optional moviepy for conversions
+-  Download videos in multiple qualities (360p / 720p / 1080p / 4K when available)
+-  Extract audio and save as MP3 or M4A
+-  Download full playlists automatically
+-  Download thumbnails automatically
+-  Download subtitles (when present)
+-  Clean, colored CLI output with progress and ETA
+-  Custom download folder support
+-  Avoids duplicate downloads using a history log
+-  Built with Python and pytube, with optional moviepy for conversions
 
 ---
 
@@ -122,7 +122,7 @@ Run the main script:
 python downloader.py
 ```
 
-Youâ€™ll see an interactive menu:
+You'll see an interactive menu:
 - Download Video
 - Download Audio
 - Download Playlist
@@ -159,11 +159,11 @@ Notes:
 ## Folder Structure
 ```
 YT-Downloader/
-â”‚
-â”œâ”€â”€ downloader.py       # Main Python script (interactive CLI)
-â”œâ”€â”€ requirements.txt    # Python dependencies
-â”œâ”€â”€ downloads.log       # Download history (auto-generated)
-â””â”€â”€ thumbnails/         # Downloaded video thumbnails
+
+ downloader.py       # Main Python script (interactive CLI)
+ requirements.txt    # Python dependencies
+ downloads.log       # Download history (auto-generated)
+ thumbnails/         # Downloaded video thumbnails
 ```
 
 Default download folders:
@@ -197,13 +197,13 @@ Please keep code readable and include tests or examples when applicable.
 ---
 
 ## License & Author
-Made with â¤ï¸ by Amos Anand (BuiltByAmos-18)
+By Amos Anand (BuiltByAmos-18)
 
 - GitHub: https://github.com/BuiltByAmos-18
 - Portfolio: https://builtbyamos.great-site.net
 - Instagram: https://instagram.com/@builtbyamos.0
 
-This project is open-source â€” feel free to use and modify under the project license.
+This project is open-source feel free to use and modify under the project license.
 
 ---
 
@@ -212,4 +212,4 @@ If you want, I can:
 - Add a badge for PyPI or CI if you plan to publish.
 - Add a small CONTRIBUTING.md and CODE_OF_CONDUCT.md for maintainers.
 
-Tell me which improvements you want next and Iâ€™ll update the files accordingly.
+Tell me which improvements you want next and I'll update the files accordingly.
