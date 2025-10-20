@@ -47,7 +47,7 @@ Interface: Command Line
 📦 Installation & Setup
 
 For Termux (Android):
-
+```bash
 pkg update && pkg upgrade
 
 pkg install python
