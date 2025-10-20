@@ -171,14 +171,14 @@ YT-Downloader/
 
 ---
 
-💡 Notes & Tips
-Works best with stable internet connection.
-Default download folder:
-Termux: ```/storage/emulated/0/Download/YT-Downloads/```
-Linux/Desktop: YT-Downloads folder in project directory
-Termux users must grant storage permission once using termux-setup-storage
-Supports HD & Full HD downloads (if available)
-Automatic filename cleaning prevents OS errors
+<h3>💡 Notes & Tips</h3><br>
+Works best with stable internet connection.<br>
+Default download folder:<br>
+Termux: ```/storage/emulated/0/Download/YT-Downloads/```<br>
+Linux/Desktop: YT-Downloads folder in project directory<br>
+Termux users must grant storage permission once using termux-setup-storage<br>
+Supports HD & Full HD downloads (if available)<br>
+Automatic filename cleaning prevents OS errors<br>
 
 
 <h3 align="center">
