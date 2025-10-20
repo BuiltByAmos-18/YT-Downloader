@@ -116,7 +116,8 @@ Available qualities:
 🔽 Enter the number of your preferred quality: 2
 📥 Downloading...
 ✅ Download complete!
-📂 Saved to: /storage/emulated/0/Download/YT-Downloads/
+📂 Saved to:
+```/storage/emulated/0/Download/YT-Downloads/```
 
 
 ---
