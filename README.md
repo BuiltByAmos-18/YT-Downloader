@@ -1,4 +1,5 @@
-# YT-Downloader
+Sure! Here's a ready-to-use README.md for your YT-Downloader project with clear steps for Termux users:
+
 # 🧰 YT-Downloader (CLI Tool)
 
 ### 📖 Project Description
@@ -31,27 +32,28 @@ It is simple, fast, and works perfectly in terminal environments, including **Te
    pkg update && pkg upgrade
 
 2. Install Python:
-   pkg install python
+
+pkg install python
 
 
-4. Install Git:
-
-   pkg install git
-
-
-5. Clone the repository:
-
-   git clone https://github.com/your-username/YT-Downloader.git
+3. Install Git:
+```bash
+pkg install git
 
 
-6. Navigate to the project folder:
+4. Clone the repository:
+```bash
+git clone https://github.com/your-username/YT-Downloader.git
 
-   cd YT-Downloader
+
+5. Navigate to the project folder:
+```bash
+cd YT-Downloader
 
 
-7. Install dependencies:
-
-   pip install pytube
+6. Install dependencies:
+```bash
+pip install pytube
 
 
 
@@ -61,8 +63,8 @@ It is simple, fast, and works perfectly in terminal environments, including **Te
 ▶️ How to Use
 
 1. Run the downloader script:
-
-   python downloader.py
+```bash
+python downloader.py
 
 
 2. Paste the YouTube video link when prompted.
@@ -76,7 +78,7 @@ It is simple, fast, and works perfectly in terminal environments, including **Te
 ---
 
 📁 Folder Structure
-
+```bash
 YT-Downloader/
 │
 ├─ downloader.py      # Main Python script
@@ -100,5 +102,5 @@ Works best with stable internet connection.
 Supports downloading videos in different resolutions (if supported by YouTube).
 
 Termux users may need to grant storage permissions:
-
-   termux-setup-storage
+```bash
+termux-setup-storage
