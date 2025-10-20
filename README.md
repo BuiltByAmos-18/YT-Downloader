@@ -94,8 +94,7 @@ termux-setup-storage
 ```
 
 ---
-
-2️⃣ Linux / Windows / macOS
+### **2️⃣ Linux / Windows / macOS**
 
 1. Ensure Python 3.10+ is installed.
 
